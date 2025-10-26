@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: proxy-n8n
+    env: docker
+    branch: main
+    repo: https://github.com/igorviniiub/proxy-n8n
+    dockerfilePath: Dockerfile
+    plan: free
+    autoDeploy: true
